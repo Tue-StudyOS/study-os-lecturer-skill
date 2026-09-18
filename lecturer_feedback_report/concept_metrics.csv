@@ -1,0 +1,33 @@
+task_id,task_title,metric_type,metric_id,label,assessed_count,secure_count,developing_count,not_demonstrated_count,secure_percent,affected_count,affected_percent,lecturer_response,diagnostic_question
+beta-exercise-24,Vorlesung 9 -- Neuronale Netze,concept,activation_function,Aktivierungsfunktion,5,5,0,0,100.0,,,,
+beta-exercise-24,Vorlesung 9 -- Neuronale Netze,concept,feed_forward_network,Feed-Forward Neural Network,5,3,0,2,60.0,,,,
+beta-exercise-24,Vorlesung 9 -- Neuronale Netze,concept,backpropagation,Backpropagation,5,2,0,3,40.0,,,,
+beta-exercise-24,Vorlesung 9 -- Neuronale Netze,concept,stochastic_gradient_descent,Stochastic Gradient Descent,5,2,0,3,40.0,,,,
+beta-exercise-24,Vorlesung 9 -- Neuronale Netze,misconception,nonlinearity_not_needed,Nichtlinearität für unnötig gehalten,5,,,,,2,40.0,"Betont, dass ohne Nichtlinearität die Modellklasse stark eingeschränkt bleibt.","Was wäre die Konsequenz, wenn zwischen allen Schichten nur lineare Transformationen verwendet würden?"
+beta-exercise-22,Vorlesung 5 - Klassifikation und Gradientenabstieg,concept,gradient_descent,Gradientenabstieg,9,8,1,0,88.9,,,,
+beta-exercise-22,Vorlesung 5 - Klassifikation und Gradientenabstieg,concept,logistic_regression,Logistische Regression,9,4,5,0,44.4,,,,
+beta-exercise-22,Vorlesung 5 - Klassifikation und Gradientenabstieg,concept,cross_entropy_loss,Kreuzentropie-Loss,9,0,5,4,0.0,,,,
+beta-exercise-22,Vorlesung 5 - Klassifikation und Gradientenabstieg,concept,model_training_link,"Zusammenhang von Modell, Loss und Optimierung",9,0,9,0,0.0,,,,
+beta-exercise-20,Vorlesung 4 -- Lineare Regression,concept,linear_regression_model,Lineares Regressionsmodell,12,9,3,0,75.0,,,,
+beta-exercise-20,Vorlesung 4 -- Lineare Regression,concept,least_squares,Least-Squares-Methode,12,4,0,8,33.3,,,,
+beta-exercise-20,Vorlesung 4 -- Lineare Regression,concept,basis_functions,Basisfunktionen und Merkmalsraum,12,2,6,4,16.7,,,,
+beta-exercise-20,Vorlesung 4 -- Lineare Regression,concept,model_evaluation,Bewertung der Modellgüte,12,2,4,6,16.7,,,,
+beta-exercise-19,Vorlesung 3 - Bayessche Entscheidungstheorie und Naive Bayes,concept,bayes_rule,Bayes’ Regel,18,13,5,0,72.2,,,,
+beta-exercise-19,Vorlesung 3 - Bayessche Entscheidungstheorie und Naive Bayes,concept,naive_bayes_independence,Naive-Bayes-Unabhängigkeitsannahme,18,9,2,7,50.0,,,,
+beta-exercise-19,Vorlesung 3 - Bayessche Entscheidungstheorie und Naive Bayes,concept,naive_bayes_classification,Naive-Bayes-Klassifikation,18,0,11,7,0.0,,,,
+beta-exercise-19,Vorlesung 3 - Bayessche Entscheidungstheorie und Naive Bayes,concept,roc_curve,ROC-Kurve,18,4,1,13,22.2,,,,
+beta-exercise-19,Vorlesung 3 - Bayessche Entscheidungstheorie und Naive Bayes,misconception,prior_likelihood_confusion,Prior und Likelihood verwechselt,18,,,,,5,27.8,Prior und Likelihood sind verschiedene Wahrscheinlichkeiten mit unterschiedlicher Rolle in Bayes’ Regel.,Worin unterscheidet sich der Prior von der Likelihood in Bayes’ Regel?
+beta-exercise-19,Vorlesung 3 - Bayessche Entscheidungstheorie und Naive Bayes,misconception,roc_threshold_confusion,ROC mit festem Schwellenwert verwechselt,18,,,,,3,16.7,Eine ROC-Kurve entsteht erst durch das Variieren des Schwellenwerts.,Warum ist die ROC-Kurve keine einzelne Zahl für einen festen Klassifikationsschwellenwert?
+beta-exercise-19,Vorlesung 3 - Bayessche Entscheidungstheorie und Naive Bayes,misconception,independence_without_conditions,Unabhängigkeit ohne Einschränkung verstanden,18,,,,,2,11.1,"Die Annahme bezieht sich auf die Merkmale gegeben die Klasse, nicht auf absolute Unabhängigkeit aller Variablen.",Unabhängig wovon sind die Merkmale im Naive-Bayes-Modell?
+beta-exercise-23,Vorlesung 6 - Decision Trees,concept,decision_tree_structure,Decision Tree Structure,6,5,1,0,83.3,,,,
+beta-exercise-23,Vorlesung 6 - Decision Trees,concept,id3_algorithm,ID3 Algorithm for Tree Construction,6,0,4,2,0.0,,,,
+beta-exercise-23,Vorlesung 6 - Decision Trees,concept,information_gain,Information Gain,6,0,1,5,0.0,,,,
+beta-exercise-23,Vorlesung 6 - Decision Trees,concept,random_forest,Random Forest,6,1,0,5,16.7,,,,
+beta-exercise-23,Vorlesung 6 - Decision Trees,concept,bagging_and_feature_randomness,Bagging and Random Feature Selection,6,1,0,5,16.7,,,,
+beta-exercise-23,Vorlesung 6 - Decision Trees,misconception,id3_is_random_split,ID3 als zufälliges Splitten,6,,,,,1,16.7,"Klarstellen, dass ID3 systematisch das Attribut mit bestem Gütemaß auswählt.",Wählt ID3 die Attribute zufällig oder nach einem Kriterium aus?
+beta-exercise-23,Vorlesung 6 - Decision Trees,misconception,information_gain_not_understood,Informationsgewinn missverstanden,6,,,,,1,16.7,"Erklären, dass Informationsgewinn die Reduktion von Unreinheit durch einen Split misst.",Was misst Information Gain genau?
+beta-exercise-25,Vorlesung 12 - Transformer und LLMs,concept,self_attention,Self-Attention,4,4,0,0,100.0,,,,
+beta-exercise-25,Vorlesung 12 - Transformer und LLMs,concept,tokenization_embedding,Tokenisierung und Embedding,4,2,0,2,50.0,,,,
+beta-exercise-25,Vorlesung 12 - Transformer und LLMs,concept,positional_encoding,Positionskodierung,4,1,2,1,25.0,,,,
+beta-exercise-25,Vorlesung 12 - Transformer und LLMs,concept,autoregressive_generation,Autoregressive Textgenerierung,4,1,0,3,25.0,,,,
+beta-exercise-25,Vorlesung 12 - Transformer und LLMs,misconception,position_in_attention,Reihenfolge kommt automatisch aus Attention,4,,,,,1,25.0,"Hervorheben, dass Positionsinformation zusätzlich eingebracht werden muss.",Warum würde ein Transformer ohne Positionskodierung Schwierigkeiten mit Reihenfolge haben?

@@ -1,0 +1,7 @@
+task_id,title,topic,conversation_count,candidate_conversation_count,distinct_student_count,assessable_count,insufficient_evidence_count,low_evidence,conceptual_accuracy_average,reasoning_quality_average,application_transfer_average,misconception_count,aha_count,aha_average,task_rating_count,task_rating_average,mistrust_count
+beta-exercise-24,Vorlesung 9 -- Neuronale Netze,Vorlesung 9 -- Neuronale Netze,6,6,6,5,1,false,2.8,2.6,2.0,2,0,,0,,0
+beta-exercise-22,Vorlesung 5 - Klassifikation und Gradientenabstieg,Vorlesung 5 - Klassifikation und Gradientenabstieg,10,10,10,9,1,false,2.78,2.78,2.0,0,0,,0,,0
+beta-exercise-20,Vorlesung 4 -- Lineare Regression,Vorlesung 4 -- Lineare Regression,13,13,13,12,1,false,2.55,2.36,1.91,0,0,,0,,0
+beta-exercise-19,Vorlesung 3 - Bayessche Entscheidungstheorie und Naive Bayes,Vorlesung 3 - Bayessche Entscheidungstheorie und Naive Bayes,19,19,19,18,1,false,2.72,2.61,1.89,10,0,,0,,0
+beta-exercise-23,Vorlesung 6 - Decision Trees,Vorlesung 6 - Decision Trees,6,6,6,6,0,false,2.83,2.5,1.67,2,0,,0,,0
+beta-exercise-25,Vorlesung 12 - Transformer und LLMs,Vorlesung 12 - Transformer und LLMs,7,7,7,4,3,false,3.0,3.0,2.25,1,0,,0,,0
